@@ -25,9 +25,51 @@
  
  Polly
 
+ MediatR
+
 ---
 
-## ویژگی‌های کلیدی این پیاده‌سازی
+</div>
+
+
+<div dir="rtl" align="right">
+
+## ویژگی‌های کلیدی
+
+۱. **معماری لایه‌ای مناسب**  
+  - Domain Layer: مدل‌های پایه و Enumها  
+  - Application Layer: Interfaceها، Exceptionها و Behaviorها  
+  - Infrastructure Layer: پیاده‌سازی Serviceها  
+  - WebApi Layer: Filterها، Middleware و Controllerها  
+
+
+۲. **Wrapping خودکار**  
+
+  - با استفاده از ApiResponseActionFilter همه پاسخ‌ها به صورت خودکار wrap می‌شوند  
+  - نیازی به تغییر در Controller های موجود نیست  
+
+۳. **مدیریت جامع خطاها**  
+  - GlobalExceptionFilter برای handle کردن همه Exceptionها  
+  - پشتیبانی از انواع مختلف خطا (Validation, NotFound, Unauthorized, etc.)  
+  - نمایش Stack Trace فقط در محیط Development  
+
+۴. **پشتیبانی از صفحه‌بندی**  
+  - مدل PagedResponse برای نمایش داده‌های صفحه‌بندی شده  
+  - اطلاعات کامل صفحه‌بندی در Meta  
+
+۵. **سازگاری با MediatR**  
+  - ValidationBehavior برای اعتبارسنجی خودکار  
+  - پشتیبانی از FluentValidation  
+
+۶. **قابلیت ردیابی**  
+  - هر Response دارای TraceId منحصر به فرد  
+  - Timestamp برای زمان پاسخ  
+
+</div>
+
+<div dir="rtl" align="right">
+
+## ویژگی‌های این پیاده‌سازی
 
 ۱. **Policy Registry Pattern**
     - مدیریت متمرکز تمام سیاست‌های Polly  

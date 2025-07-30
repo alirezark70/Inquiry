@@ -1,16 +1,12 @@
 ﻿using Inquiry.Core.ApplicationService.Contracts;
+using Inquiry.Infra.Services;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace Inquiry.Infra.Services.Extenstions.DependencyInjection
+namespace Inquiry.Infra.Extenstions.DependencyInjection
 {
     public static class ResponseServiceRegistrer
     {
-        public static IServiceCollection RegisterSimpleDateTimeService(this IServiceCollection services)
+        public static IServiceCollection RegisterResponseService(this IServiceCollection services)
         {
             services.AddTransient<IResponseService, ResponseService>();
 

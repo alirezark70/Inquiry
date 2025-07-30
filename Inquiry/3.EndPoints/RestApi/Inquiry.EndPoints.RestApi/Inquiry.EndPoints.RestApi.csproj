@@ -8,10 +8,15 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\1.Core\ApplicationService\Inquiry.Core.ApplicationService\Inquiry.Core.ApplicationService.csproj" />
     <ProjectReference Include="..\..\..\1.Core\Domain\Inquiry.Core.Domain\Inquiry.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\..\2.Infra\Inquiry.Infra.Services\Inquiry.Infra.Services.csproj" />
+    <ProjectReference Include="..\..\..\2.Infra\Inquiry.Infra.SimpleDateTime\Inquiry.Infra.SimpleDateTime.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "5QemsDf5laY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\email\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+@Inquiry.EndPoints.RestApi_HostAddress = http://localhost:5088
+
+GET {{Inquiry.EndPoints.RestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

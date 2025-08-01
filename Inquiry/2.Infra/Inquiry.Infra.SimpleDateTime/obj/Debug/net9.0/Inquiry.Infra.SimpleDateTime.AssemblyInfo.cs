@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Inquiry.Infra.SimpleDateTime")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5fa342bc8e4a498c51ae522d6fddb72fdb6ca10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+772233d5514a8de50baeef833c2dfcab1b80cf1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Inquiry.Infra.SimpleDateTime")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Inquiry.Infra.SimpleDateTime")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

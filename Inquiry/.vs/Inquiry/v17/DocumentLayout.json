@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\weatherforecasttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\weatherforecasttest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\mapping\\contracts\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\mapping\\contracts\\imapfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\controllers\\baseapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\exceptions\\dependencyinjection\\registerresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\exceptions\\dependencyinjection\\registerresponseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\behaviors\\loggingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\behaviors\\loggingbehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\mapping\\mapperprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\mapping\\mapperprofile\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\behaviors\\performancebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\behaviors\\performancebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,67 +54,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BaseApiController.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\BaseApiController.cs",
-              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\BaseApiController.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\BaseApiController.cs",
-              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\BaseApiController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAwAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:37:21.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:37:17.882Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecast.cs",
-              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:37:09.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
-              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
-              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:19:17.547Z",
+              "WhenOpened": "2025-07-31T21:35:44.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HostingExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
-              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
-              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAAEoAAAAdAAAAAAAAAA==",
+              "Title": "WeatherForecastTest.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecastTest.cs",
+              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecastTest.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecastTest.cs",
+              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecastTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:18:29.06Z",
+              "WhenOpened": "2025-07-31T21:35:24.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:20:24.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterResponseService.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:19:41.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoggingBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\LoggingBehaviour.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\LoggingBehaviour.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\LoggingBehaviour.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\LoggingBehaviour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:11:52.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PerformanceBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\PerformanceBehaviour.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\PerformanceBehaviour.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\PerformanceBehaviour.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\PerformanceBehaviour.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:15:35.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\MapperProfile\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\MapperProfile\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\MapperProfile\\MappingProfile.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\MapperProfile\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:08:30.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IMapFrom.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\Contracts\\IMapFrom.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\Contracts\\IMapFrom.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\Contracts\\IMapFrom.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\Contracts\\IMapFrom.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T21:08:04.031Z",
               "EditorCaption": ""
             }
           ]

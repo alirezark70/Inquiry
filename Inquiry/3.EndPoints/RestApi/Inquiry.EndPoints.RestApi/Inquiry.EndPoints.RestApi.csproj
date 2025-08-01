@@ -15,7 +15,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\1.Core\ApplicationService\Inquiry.Core.ApplicationService\Inquiry.Core.ApplicationService.csproj" />
     <ProjectReference Include="..\..\..\1.Core\Domain\Inquiry.Core.Domain\Inquiry.Core.Domain.csproj" />
-    <ProjectReference Include="..\..\..\2.Infra\Inquiry.Infra.Services\Inquiry.Infra.Services.csproj" />
     <ProjectReference Include="..\..\..\2.Infra\Inquiry.Infra.SimpleDateTime\Inquiry.Infra.SimpleDateTime.csproj" />
   </ItemGroup>
 

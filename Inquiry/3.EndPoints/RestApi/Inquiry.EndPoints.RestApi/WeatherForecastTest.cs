@@ -1,6 +1,9 @@
+using Inquiry.Core.ApplicationService.Dtos.Test;
+using Inquiry.Core.ApplicationService.Mapping.Contracts;
+
 namespace Inquiry.EndPoints.RestApi
 {
-    public class WeatherForecast
+    public class WeatherForecastTest : IMapFrom<WeatherForecastDto>
     {
         public DateOnly Date { get; set; }
 
@@ -9,5 +12,7 @@ namespace Inquiry.EndPoints.RestApi
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
+
+        
     }
 }

@@ -4,18 +4,16 @@ using Inquiry.Core.Domain.Enums.Response;
 using Inquiry.Core.Domain.Models.Response.Entities;
 using Inquiry.EndPoints.RestApi.Filters;
 using Inquiry.EndPoints.RestApi.Middleware;
-using Inquiry.Infra.Services;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Inquiry.EndPoints.RestApi.Extensions.DependencyInjection
+namespace Inquiry.EndPoints.Extensions.DependencyInjection
 {
     public static class ServiceExtensions
     {
         public static IServiceCollection AddResponseFramework(this IServiceCollection services)
         {
             // Add Response Service
-            services.AddScoped<IResponseService, ResponseService>();
 
             // Add MediatR Pipeline Behaviors
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));

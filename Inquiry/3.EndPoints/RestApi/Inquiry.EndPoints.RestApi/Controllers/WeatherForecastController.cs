@@ -1,3 +1,6 @@
+using AutoMapper;
+using Inquiry.Core.ApplicationService.Dtos.Test;
+using Inquiry.Core.ApplicationService.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Inquiry.EndPoints.RestApi.Controllers
@@ -11,22 +14,32 @@ namespace Inquiry.EndPoints.RestApi.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        private readonly IMapper _mapper;
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMapper mapper)
         {
             _logger = logger;
+            _mapper = mapper;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecastTest> Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+
+            var list= Enumerable.Range(1, 5).Select(index => new WeatherForecastTest
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+
+            var one = list.FirstOrDefault();
+
+            //var two = one?.MapTo<WeatherForecastDto>(_mapper);
+            var two = _mapper.Map<WeatherForecastDto>(one);
+
+
+            return list;
         }
     }
 }

@@ -1,6 +1,6 @@
 using Inquiry.Core.Domain.Models.Response.Entities;
 using Inquiry.EndPoints.RestApi.Extensions;
-using Inquiry.EndPoints.RestApi.Extensions.DependencyInjection;
+using Inquiry.EndPoints.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
 

@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{07E46935-CC00-4B8F-8A9B-2D537CAA0815}|2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\inquiry.infra.resilience\\inquiry.infra.resilience\\registry\\policyregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E46935-CC00-4B8F-8A9B-2D537CAA0815}|2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience.csproj|solutionrelative:2.infra\\inquiry.infra.resilience\\inquiry.infra.resilience\\registry\\policyregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07E46935-CC00-4B8F-8A9B-2D537CAA0815}|2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\inquiry.infra.resilience\\inquiry.infra.resilience\\configuration\\resilienceoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07E46935-CC00-4B8F-8A9B-2D537CAA0815}|2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience.csproj|solutionrelative:2.infra\\inquiry.infra.resilience\\inquiry.infra.resilience\\configuration\\resilienceoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +50,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PolicyRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Registry\\PolicyRegistry.cs",
+              "RelativeDocumentMoniker": "2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Registry\\PolicyRegistry.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Registry\\PolicyRegistry.cs",
+              "RelativeToolTip": "2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Registry\\PolicyRegistry.cs",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAAAIEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T21:03:08.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ResilienceOptions.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Configuration\\ResilienceOptions.cs",
+              "RelativeDocumentMoniker": "2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Configuration\\ResilienceOptions.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Configuration\\ResilienceOptions.cs",
+              "RelativeToolTip": "2.Infra\\Inquiry.Infra.Resilience\\Inquiry.Infra.Resilience\\Configuration\\ResilienceOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-02T20:58:31.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "WeatherForecastDto.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Dtos\\Test\\WeatherForecastDto.cs",
               "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Dtos\\Test\\WeatherForecastDto.cs",
@@ -55,20 +89,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
               "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAowCAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T16:31:43.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "WeatherForecastTestConfig.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\MappingConfig\\WeatherForecastTestConfig.cs",
               "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Mapping\\MappingConfig\\WeatherForecastTestConfig.cs",
@@ -81,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WeatherForecastTest.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecastTest.cs",
               "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\WeatherForecastTest.cs",
@@ -94,13 +128,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RegisterResponseService.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
               "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
               "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
               "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\DependencyInjection\\RegisterResponseService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBGwCIAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-02T16:25:23.24Z",
               "EditorCaption": ""

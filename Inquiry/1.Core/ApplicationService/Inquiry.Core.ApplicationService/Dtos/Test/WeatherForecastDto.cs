@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Inquiry.Core.ApplicationService.Mapping.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Inquiry.Core.ApplicationService.Dtos.Test
 {
-    public class WeatherForecastDto
+    public class WeatherForecastDto 
     {
         public DateOnly Date { get; set; }
 
@@ -15,5 +16,7 @@ namespace Inquiry.Core.ApplicationService.Dtos.Test
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
 
         public string? Summary { get; set; }
+
+      
     }
 }

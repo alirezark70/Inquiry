@@ -1,6 +1,6 @@
-using AutoMapper;
 using Inquiry.Core.ApplicationService.Dtos.Test;
 using Inquiry.Core.ApplicationService.Exceptions;
+using Inquiry.Core.ApplicationService.Mapping.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Inquiry.EndPoints.RestApi.Controllers
@@ -14,11 +14,11 @@ namespace Inquiry.EndPoints.RestApi.Controllers
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
-        private readonly IMapper _mapper;
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMapper mapper)
+        private readonly IMappingService _mappingService;
+        public WeatherForecastController(ILogger<WeatherForecastController> logger, IMappingService mappingService)
         {
             _logger = logger;
-            _mapper = mapper;
+            _mappingService = mappingService;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
@@ -36,7 +36,7 @@ namespace Inquiry.EndPoints.RestApi.Controllers
             var one = list.FirstOrDefault();
 
             //var two = one?.MapTo<WeatherForecastDto>(_mapper);
-            var two = _mapper.Map<WeatherForecastDto>(one);
+            var two = _mappingService.Map<WeatherForecastDto>(one);
 
 
             return list;

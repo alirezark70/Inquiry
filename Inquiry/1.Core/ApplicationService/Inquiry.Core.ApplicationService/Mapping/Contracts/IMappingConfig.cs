@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿using Mapster;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace Inquiry.Core.ApplicationService.Mapping.Contracts
 {
-    public interface IMapFrom<T>
+    public interface IMappingConfig : IRegister
     {
-        void Mapping(Profile profile) => profile.CreateMap(typeof(T), GetType());
     }
 }

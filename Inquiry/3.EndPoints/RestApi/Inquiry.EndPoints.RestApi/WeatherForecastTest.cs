@@ -3,7 +3,7 @@ using Inquiry.Core.ApplicationService.Mapping.Contracts;
 
 namespace Inquiry.EndPoints.RestApi
 {
-    public class WeatherForecastTest : IMapFrom<WeatherForecastDto>
+    public class WeatherForecastTest 
     {
         public DateOnly Date { get; set; }
 

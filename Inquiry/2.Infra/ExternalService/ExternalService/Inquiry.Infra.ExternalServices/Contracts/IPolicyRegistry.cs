@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inquiry.Infra.Resilience.Contracts
+namespace Inquiry.Infra.ExternalServices.Contracts
 {
     public interface IPolicyRegistry
     {

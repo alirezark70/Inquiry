@@ -1,4 +1,4 @@
-﻿namespace Inquiry.Infra.Resilience.Configuration
+﻿namespace Inquiry.Infra.ExternalServices.Resilience.Configuration
 {
     public class CircuitBreakerOptions
     {

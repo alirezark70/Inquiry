@@ -1,5 +1,5 @@
-﻿using Inquiry.Infra.Resilience.Configuration;
-using Inquiry.Infra.Resilience.Contracts;
+﻿using Inquiry.Infra.ExternalServices.Contracts;
+using Inquiry.Infra.ExternalServices.Resilience.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Polly;
@@ -13,7 +13,7 @@ using System.Text;
 using System.Threading.RateLimiting;
 using System.Threading.Tasks;
 
-namespace Inquiry.Infra.Resilience.Registry
+namespace Inquiry.Infra.ExternalServices.Resilience.Registry
 {
     public class PolicyRegistry : IPolicyRegistry
     {

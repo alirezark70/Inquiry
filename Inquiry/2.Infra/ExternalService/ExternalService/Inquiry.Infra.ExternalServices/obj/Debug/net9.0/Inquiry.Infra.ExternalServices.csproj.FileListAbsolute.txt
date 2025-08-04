@@ -1,4 +1,5 @@
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\bin\Debug\net9.0\Inquiry.Infra.ExternalServices.deps.json
+C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\bin\Debug\net9.0\Inquiry.Infra.ExternalServices.runtimeconfig.json
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\bin\Debug\net9.0\Inquiry.Infra.ExternalServices.dll
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\bin\Debug\net9.0\Inquiry.Infra.ExternalServices.pdb
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\bin\Debug\net9.0\Inquiry.Core.ApplicationService.dll
@@ -15,4 +16,5 @@ C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalServ
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\obj\Debug\net9.0\Inquiry.Infra.ExternalServices.dll
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\obj\Debug\net9.0\refint\Inquiry.Infra.ExternalServices.dll
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\obj\Debug\net9.0\Inquiry.Infra.ExternalServices.pdb
+C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\obj\Debug\net9.0\Inquiry.Infra.ExternalServices.genruntimeconfig.cache
 C:\Users\email\source\repos\Inquiry\Inquiry\2.Infra\ExternalService\ExternalService\Inquiry.Infra.ExternalServices\obj\Debug\net9.0\ref\Inquiry.Infra.ExternalServices.dll

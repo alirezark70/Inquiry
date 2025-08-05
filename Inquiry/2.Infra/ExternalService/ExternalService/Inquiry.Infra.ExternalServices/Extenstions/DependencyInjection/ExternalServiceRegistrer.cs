@@ -15,7 +15,7 @@ using Polly.Retry;
 using System;
 using System.Configuration;
 
-namespace Inquiry.Infra.ExternalServices.Extenstions.DependencyInjection
+namespace Inquiry.Infra.Extenstions.DependencyInjection
 {
     public static class ExternalServiceRegistrer
     {

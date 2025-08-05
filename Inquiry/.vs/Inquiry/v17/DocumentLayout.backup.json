@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\extensions\\hostingextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\extenstions\\dependencyinjection\\externalserviceregistrer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|solutionrelative:2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\extenstions\\dependencyinjection\\externalserviceregistrer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F7CF377-9B0E-4CFD-B55C-C311FEE179EE}|2.Infra\\Inquiry.Infra.SimpleDateTime\\Inquiry.Infra.SimpleDateTime.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\inquiry.infra.simpledatetime\\extenstions\\dependencyinjection\\simpledatetimeregistrer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F7CF377-9B0E-4CFD-B55C-C311FEE179EE}|2.Infra\\Inquiry.Infra.SimpleDateTime\\Inquiry.Infra.SimpleDateTime.csproj|solutionrelative:2.infra\\inquiry.infra.simpledatetime\\extenstions\\dependencyinjection\\simpledatetimeregistrer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\extensions\\dependencyinjection\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\extensions\\dependencyinjection\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\telemetry\\resiliencetelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|solutionrelative:2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\telemetry\\resiliencetelemetry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +58,85 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SimpleDateTimeRegistrer.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\Inquiry.Infra.SimpleDateTime\\Extenstions\\DependencyInjection\\SimpleDateTimeRegistrer.cs",
+              "RelativeDocumentMoniker": "2.Infra\\Inquiry.Infra.SimpleDateTime\\Extenstions\\DependencyInjection\\SimpleDateTimeRegistrer.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\Inquiry.Infra.SimpleDateTime\\Extenstions\\DependencyInjection\\SimpleDateTimeRegistrer.cs",
+              "RelativeToolTip": "2.Infra\\Inquiry.Infra.SimpleDateTime\\Extenstions\\DependencyInjection\\SimpleDateTimeRegistrer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T19:51:57.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
+              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
+              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T19:48:55.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HostingExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
+              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
+              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\HostingExtensions.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAEEAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T19:48:35.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\DependencyInjection\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\DependencyInjection\\ServiceExtensions.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\DependencyInjection\\ServiceExtensions.cs",
+              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\DependencyInjection\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T19:47:54.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ExternalServiceRegistrer.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Extenstions\\DependencyInjection\\ExternalServiceRegistrer.cs",
+              "RelativeDocumentMoniker": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Extenstions\\DependencyInjection\\ExternalServiceRegistrer.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Extenstions\\DependencyInjection\\ExternalServiceRegistrer.cs",
+              "RelativeToolTip": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Extenstions\\DependencyInjection\\ExternalServiceRegistrer.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T19:47:42.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ResilienceTelemetry.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Telemetry\\ResilienceTelemetry.cs",
               "RelativeDocumentMoniker": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Telemetry\\ResilienceTelemetry.cs",
               "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Telemetry\\ResilienceTelemetry.cs",
               "RelativeToolTip": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Telemetry\\ResilienceTelemetry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T23:13:29.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "IPostInquiryService.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Contracts\\ExternalServices\\IPostInquiryService.cs",
               "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Contracts\\ExternalServices\\IPostInquiryService.cs",
@@ -63,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "PostInquiryService.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\PostInquiryService.cs",
               "RelativeDocumentMoniker": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\PostInquiryService.cs",
@@ -75,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ValidationBehavior.cs",
               "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\ValidationBehavior.cs",
               "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\ValidationBehavior.cs",

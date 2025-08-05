@@ -63,6 +63,9 @@ namespace Inquiry.EndPoints.RestApi.Extensions
             builder.Services.RegisterResponseService();
 
 
+            // add external service and resilince and telemetry and retry services
+            builder.Services.RegisterExternalService(builder.Configuration);
+
 
             return builder.Build();
         }

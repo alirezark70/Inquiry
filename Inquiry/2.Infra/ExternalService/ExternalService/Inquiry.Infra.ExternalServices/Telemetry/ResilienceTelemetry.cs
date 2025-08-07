@@ -1,13 +1,9 @@
 ﻿using App.Metrics;
 using App.Metrics.Counter;
+using Inquiry.Core.Domain.Enums.Base;
 using Inquiry.Infra.ExternalServices.Contracts;
 using Microsoft.Extensions.Logging;
 using Polly.CircuitBreaker;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Inquiry.Infra.ExternalServices.Telemetry
 {
@@ -22,51 +18,51 @@ namespace Inquiry.Infra.ExternalServices.Telemetry
             _metrics = metrics;
         }
 
-        public void RecordRetryAttempt(string policyName, int attemptNumber, TimeSpan delay)
+        public void RecordRetryAttempt(PolicyType policyType, int attemptNumber, TimeSpan delay)
         {
             _logger.LogInformation(
                 "Retry attempt {AttemptNumber} for policy {PolicyName} after {Delay}ms",
-                attemptNumber, policyName, delay.TotalMilliseconds);
+                attemptNumber, policyType.ToString(), delay.TotalMilliseconds);
 
             _metrics.Measure.Counter.Increment(
-                new CounterOptions { Name = "resilience_retry_attempts", Tags = new MetricTags("policy", policyName) });
+                new CounterOptions { Name = "resilience_retry_attempts", Tags = new MetricTags("policy", policyType.ToString()) });
         }
 
-        public void RecordCircuitBreakerStateChange(string policyName, CircuitState newState)
+        public void RecordCircuitBreakerStateChange(PolicyType policyType, CircuitState newState)
         {
             _logger.LogWarning(
                 "Circuit breaker {PolicyName} changed state to {NewState}",
-                policyName, newState);
+                policyType.ToString(), newState);
 
             _metrics.Measure.Counter.Increment(
                 new CounterOptions
                 {
                     Name = "resilience_circuit_breaker_state_changes",
-                    Tags = new MetricTags(new[] { "policy", "state" }, new[] { policyName, newState.ToString() })
+                    Tags = new MetricTags(new[] { "policy", "state" }, new[] { policyType.ToString(), newState.ToString() })
                 });
         }
 
-        public void RecordTimeout(string policyName, TimeSpan elapsed)
+        public void RecordTimeout(PolicyType policyType, TimeSpan elapsed)
         {
             _logger.LogWarning(
                 "Timeout occurred for policy {PolicyName} after {Elapsed}ms",
-                policyName, elapsed.TotalMilliseconds);
+                 policyType.ToString(), elapsed.TotalMilliseconds);
 
             _metrics.Measure.Counter.Increment(
-                new CounterOptions { Name = "resilience_timeouts", Tags = new MetricTags("policy", policyName) });
+                new CounterOptions { Name = "resilience_timeouts", Tags = new MetricTags("policy", policyType.ToString()) });
         }
 
-        public void RecordFallback(string policyName, string reason)
+        public void RecordFallback(PolicyType policyType, string reason)
         {
             _logger.LogInformation(
                 "Fallback executed for policy {PolicyName}. Reason: {Reason}",
-                policyName, reason);
+                 policyType.ToString(), reason);
 
             _metrics.Measure.Counter.Increment(
                 new CounterOptions
                 {
                     Name = "resilience_fallbacks",
-                    Tags = new MetricTags(new[] { "policy", "reason" }, new[] { policyName, reason })
+                    Tags = new MetricTags(new[] { "policy", "reason" }, new[] { policyType.ToString(), reason })
                 });
         }
     }

@@ -1,5 +1,6 @@
 ﻿using Inquiry.Core.ApplicationService.Contracts;
 using Inquiry.Core.ApplicationService.Contracts.ExternalServices;
+using Inquiry.Core.Domain.Enums.Base;
 using Inquiry.Infra.ExternalServices;
 using Inquiry.Infra.ExternalServices.Contracts;
 using Inquiry.Infra.ExternalServices.Posts;
@@ -41,7 +42,7 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
             services.Decorate<IPostInquiryService, ResilientPostInquiryService>();
 
             // Register Custom Resilience Pipelines
-            services.AddResiliencePipeline(PolicyNames.PostInquiry, (builder, context) =>
+            services.AddResiliencePipeline(PolicyType.ExternalService, (builder, context) =>
             {
                 var options = context.ServiceProvider
                     .GetRequiredService<IOptions<ResilienceOptions>>().Value;
@@ -57,7 +58,7 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
                         {
                             var logger = context.ServiceProvider.GetRequiredService<ILogger<PolicyRegistry>>();
                             logger.LogWarning(
-                                "PersonInquiry Retry {Attempt} after {Delay}ms",
+                                "PostInquiry Retry {Attempt} after {Delay}ms",
                                 args.AttemptNumber,
                                 args.RetryDelay.TotalMilliseconds);
                             return ValueTask.CompletedTask;

@@ -1,5 +1,6 @@
 ﻿using Inquiry.Core.ApplicationService.Contracts.ExternalServices;
 using Inquiry.Core.ApplicationService.Dtos.Posts;
+using Inquiry.Core.Domain.Enums.Base;
 using Inquiry.Infra.ExternalServices.Contracts;
 using Inquiry.Infra.ExternalServices.Resilience.Configuration;
 using Microsoft.Extensions.Logging;
@@ -26,7 +27,7 @@ namespace Inquiry.Infra.ExternalServices.Posts
             _logger = logger;
             _policyRegistry = policyRegistry;
             _innerService = innerService;
-            _pipeline = _policyRegistry.GetPipeline(PolicyNames.PostInquiry);
+            _pipeline = _policyRegistry.GetPipeline(PolicyType.ExternalService);
         }
 
         public async Task<PostDto?> GetPostByIdAsync(int id, CancellationToken cancellationToken = default)

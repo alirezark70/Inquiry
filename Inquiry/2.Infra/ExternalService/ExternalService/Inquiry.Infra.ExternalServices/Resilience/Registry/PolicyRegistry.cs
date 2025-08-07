@@ -1,4 +1,5 @@
-﻿using Inquiry.Infra.ExternalServices.Contracts;
+﻿using Inquiry.Core.Domain.Enums.Base;
+using Inquiry.Infra.ExternalServices.Contracts;
 using Inquiry.Infra.ExternalServices.Resilience.Configuration;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -9,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Data.Entity.Infrastructure;
 using System.Linq;
+using System.Net.Sockets;
 using System.Text;
 using System.Threading.RateLimiting;
 using System.Threading.Tasks;
@@ -17,7 +19,7 @@ namespace Inquiry.Infra.ExternalServices.Resilience.Registry
 {
     public class PolicyRegistry : IPolicyRegistry
     {
-        private readonly Dictionary<string, object> _pipelines = new();
+        private readonly Dictionary<PolicyType, object> _pipelines = new();
         private readonly IOptions<ResilienceOptions> _options;
         private readonly ILogger<PolicyRegistry> _logger;
 
@@ -28,51 +30,59 @@ namespace Inquiry.Infra.ExternalServices.Resilience.Registry
             InitializeDefaultPipelines();
         }
 
-        public ResiliencePipeline<T> GetPipeline<T>(string policyName)
+        public ResiliencePipeline<T> GetPipeline<T>(PolicyType policyType)
         {
-            if (_pipelines.TryGetValue(policyName, out var pipeline) && pipeline is ResiliencePipeline<T> typedPipeline)
+            if (_pipelines.TryGetValue(policyType, out var pipeline) && pipeline is ResiliencePipeline<T> typedPipeline)
             {
                 return typedPipeline;
             }
 
-            throw new InvalidOperationException($"Pipeline '{policyName}' not found or type mismatch.");
+            throw new InvalidOperationException($"Pipeline '{policyType.ToString()}' not found or type mismatch.");
         }
 
-        public ResiliencePipeline GetPipeline(string policyName)
+        public ResiliencePipeline GetPipeline(PolicyType policyType)
         {
-            if (_pipelines.TryGetValue(policyName, out var pipeline) && pipeline is ResiliencePipeline untypedPipeline)
+
+            if (_pipelines.TryGetValue(policyType, out var pipeline) && pipeline is ResiliencePipeline untypedPipeline)
             {
                 return untypedPipeline;
             }
 
-            throw new InvalidOperationException($"Pipeline '{policyName}' not found.");
+            throw new InvalidOperationException($"Pipeline '{policyType.ToString()}' not found.");
         }
 
-        public void RegisterPipeline<T>(string policyName, ResiliencePipeline<T> pipeline)
+        public void RegisterPipeline<T>(PolicyType policyType, ResiliencePipeline<T> pipeline)
         {
-            _pipelines[policyName] = pipeline;
-            _logger.LogInformation("Registered typed pipeline: {PolicyName}", policyName);
+            _pipelines[policyType] = pipeline;
+            _logger.LogInformation("Registered typed pipeline: {PolicyName}", policyType.ToString());
         }
 
-        public void RegisterPipeline(string policyName, ResiliencePipeline pipeline)
+        public void RegisterPipeline(PolicyType policyType, ResiliencePipeline pipeline)
         {
-            _pipelines[policyName] = pipeline;
-            _logger.LogInformation("Registered pipeline: {PolicyName}", policyName);
+            _pipelines[policyType] = pipeline;
+            _logger.LogInformation("Registered pipeline: {PolicyName}", policyType);
         }
 
         private void InitializeDefaultPipelines()
         {
             // Standard HTTP Pipeline
             var httpPipeline = CreateHttpPipeline();
-            RegisterPipeline("http-standard", httpPipeline);
+            RegisterPipeline(PolicyType.HttpStandard, httpPipeline);
 
             // Database Pipeline
             var dbPipeline = CreateDatabasePipeline();
-            RegisterPipeline("database", dbPipeline);
+            RegisterPipeline(PolicyType.Database, dbPipeline);
 
             // Critical Service Pipeline
             var criticalPipeline = CreateCriticalServicePipeline();
-            RegisterPipeline("critical-service", criticalPipeline);
+            RegisterPipeline(PolicyType.CriticalService, criticalPipeline);
+
+            //external Service Pipeline
+
+            var externalPipline = CreateExternalServciePipleline();
+            RegisterPipeline(PolicyType.ExternalService, criticalPipeline);
+
+
         }
 
         private ResiliencePipeline CreateHttpPipeline()
@@ -134,6 +144,47 @@ namespace Inquiry.Infra.ExternalServices.Resilience.Registry
                 .Build();
         }
 
+        private ResiliencePipeline CreateExternalServciePipleline()
+        {
+            var options = _options.Value;
+
+            return new ResiliencePipelineBuilder()
+                .AddRetry(new RetryStrategyOptions
+                {
+                    MaxRetryAttempts = 3, // معقول برای external
+                    Delay = TimeSpan.FromSeconds(1),
+                    BackoffType = DelayBackoffType.Exponential,
+                    UseJitter = true, // مهم برای external services
+                    MaxDelay = TimeSpan.FromSeconds(30), // محدودیت delay
+                    ShouldHandle = new PredicateBuilder()
+                        .Handle<HttpRequestException>() // HTTP specifi
+                        .Handle<TaskCanceledException>() // Timeout
+                        .Handle<SocketException>(), // Network issues
+                    OnRetry = args =>
+                    {
+                        _logger.LogWarning(
+                            "External service retry attempt {Attempt} after {Delay}ms",
+                            args.AttemptNumber,
+                            args.RetryDelay.TotalMilliseconds);
+                        return ValueTask.CompletedTask;
+                    }
+                })
+                .AddCircuitBreaker(new CircuitBreakerStrategyOptions
+                {
+                    FailureRatio = 0.4, // 40% - بین http و critical
+                    SamplingDuration = TimeSpan.FromMinutes(2),
+                    MinimumThroughput = 5,
+                    BreakDuration = TimeSpan.FromSeconds(45),
+                    OnOpened = args =>
+                    {
+                        _logger.LogError("External service circuit breaker opened!");
+                        return ValueTask.CompletedTask;
+                    }
+                })
+                .AddTimeout(TimeSpan.FromSeconds(20)) // مناسب برای external
+                .Build();
+        }
+
         private ResiliencePipeline CreateCriticalServicePipeline()
         {
             var options = _options.Value;
@@ -162,6 +213,8 @@ namespace Inquiry.Infra.ExternalServices.Resilience.Registry
                 })
                 .Build();
         }
+
+    
     }
 }
 

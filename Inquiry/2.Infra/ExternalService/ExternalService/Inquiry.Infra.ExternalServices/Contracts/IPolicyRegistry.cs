@@ -1,4 +1,5 @@
-﻿using Polly;
+﻿using Inquiry.Core.Domain.Enums.Base;
+using Polly;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +10,9 @@ namespace Inquiry.Infra.ExternalServices.Contracts
 {
     public interface IPolicyRegistry
     {
-        ResiliencePipeline<T> GetPipeline<T>(string policyName);
-        ResiliencePipeline GetPipeline(string policyName);
-        void RegisterPipeline<T>(string policyName, ResiliencePipeline<T> pipeline);
-        void RegisterPipeline(string policyName, ResiliencePipeline pipeline);
+        ResiliencePipeline<T> GetPipeline<T>(PolicyType policyType);
+        ResiliencePipeline GetPipeline(PolicyType policyType);
+        void RegisterPipeline<T>(PolicyType policyType, ResiliencePipeline<T> pipeline);
+        void RegisterPipeline(PolicyType policyType, ResiliencePipeline pipeline);
     }
 }

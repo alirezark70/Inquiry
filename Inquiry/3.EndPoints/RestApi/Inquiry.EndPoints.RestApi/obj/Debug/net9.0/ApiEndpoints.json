@@ -1,5 +1,29 @@
 [
   {
+    "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.PostController",
+    "Method": "Get",
+    "RelativePath": "api/Post/GetPost/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Inquiry.Core.ApplicationService.Dtos.Posts.PostDto",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "api/WeatherForecast",

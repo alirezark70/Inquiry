@@ -39,6 +39,8 @@ namespace Inquiry.Infra.ExternalServices.Posts
             if (response.StatusCode == HttpStatusCode.NotFound)
                 return null;
 
+
+           // await Task.Delay(5000);
             response.EnsureSuccessStatusCode();
 
             var person = await response.Content.ReadFromJsonAsync<PostDto>(cancellationToken);

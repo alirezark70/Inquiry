@@ -210,7 +210,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "App.Metrics.Abstractions": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "App.Metrics.Extensions.Hosting": {
               "target": "Package",
               "version": "[4.3.0, )"
             },
@@ -405,6 +409,30 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "App.Metrics": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "App.Metrics.AspNetCore": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "App.Metrics.AspNetCore.Endpoints": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "App.Metrics.AspNetCore.Tracking": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "App.Metrics.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "App.Metrics.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[9.0.7, )"

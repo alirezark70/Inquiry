@@ -1,11 +1,14 @@
-﻿using Inquiry.Core.ApplicationService.Behaviors;
+﻿using App.Metrics;
+using Inquiry.Core.ApplicationService.Behaviors;
 using Inquiry.Core.ApplicationService.Contracts;
 using Inquiry.Core.Domain.Enums.Response;
 using Inquiry.Core.Domain.Models.Response.Entities;
 using Inquiry.EndPoints.RestApi.Filters;
 using Inquiry.EndPoints.RestApi.Middleware;
 using MediatR;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Inquiry.EndPoints.Extensions.DependencyInjection
 {
@@ -50,6 +53,22 @@ namespace Inquiry.EndPoints.Extensions.DependencyInjection
                 };
             });
 
+
+
+            return services;
+        }
+
+
+        public static IServiceCollection AddMetericsToDI(this IServiceCollection services)
+        {
+            var metrics = new MetricsBuilder().Build();
+
+            services.AddMetrics(metrics);
+
+            services.AddMetricsEndpoints();
+            services.AddMetricsTrackingMiddleware();
+            services.AddMetricsReportingHostedService();
+
             return services;
         }
 
@@ -57,6 +76,15 @@ namespace Inquiry.EndPoints.Extensions.DependencyInjection
         {
             
              app.UseMiddleware<ResponseWrapperMiddleware>();
+
+            return app;
+        }
+
+        public static IApplicationBuilder UseMetericsMiddleware(this IApplicationBuilder app)
+        {
+
+            app.UseMetricsAllMiddleware();    
+            app.UseMetricsAllEndpoints();
 
             return app;
         }

@@ -1,11 +1,13 @@
 ﻿using Inquiry.Core.ApplicationService.Contracts;
 using Inquiry.Core.ApplicationService.Contracts.ExternalServices;
+using Inquiry.Core.ApplicationService.Mapping.Contracts;
 using Inquiry.Core.Domain.Enums.Base;
 using Inquiry.Infra.ExternalServices;
 using Inquiry.Infra.ExternalServices.Contracts;
 using Inquiry.Infra.ExternalServices.Posts;
 using Inquiry.Infra.ExternalServices.Resilience.Configuration;
 using Inquiry.Infra.ExternalServices.Resilience.Registry;
+using Inquiry.Infra.ExternalServices.Telemetry;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -13,6 +15,7 @@ using Microsoft.Extensions.Options;
 using Polly;
 using Polly.CircuitBreaker;
 using Polly.Retry;
+using Polly.Timeout;
 using System;
 using System.Configuration;
 
@@ -29,6 +32,21 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
             // Register Policy Registry
             services.AddSingleton<IPolicyRegistry, PolicyRegistry>();
 
+            services.AddScoped<IPostInquiryService>(provider =>
+            {
+                var innerService = new PostInquiryService(
+                    provider.GetRequiredService<HttpClient>(),
+                    provider.GetRequiredService<IMappingService>(),
+                    provider.GetRequiredService<ILogger<PostInquiryService>>());
+
+                return new ResilientPostInquiryService(
+                    provider.GetRequiredService<ILogger<ResilientPostInquiryService>>(),
+                    provider.GetRequiredService<IPolicyRegistry>(),
+                    innerService,
+                    provider.GetRequiredService<IResilienceTelemetry>());
+            });
+
+
             // Register HTTP Clients with Resilience
             services.AddHttpClient<IPostInquiryService, PostInquiryService>(client =>
             {
@@ -38,18 +56,32 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
             })
             .InjectStandardResilienceHandler();
 
+            services.AddSingleton<IResilienceTelemetry, ResilienceTelemetry>();
+
+
             // Register Decorated Service
-            services.Decorate<IPostInquiryService, ResilientPostInquiryService>();
+             //services.Decorate<IPostInquiryService, ResilientPostInquiryService>();
+            
+
+
 
             // Register Custom Resilience Pipelines
             services.AddResiliencePipeline(PolicyType.ExternalService, (builder, context) =>
             {
+
+                var telemetry = context.ServiceProvider.GetRequiredService<IResilienceTelemetry>();
+
+
                 var options = context.ServiceProvider
                     .GetRequiredService<IOptions<ResilienceOptions>>().Value;
 
                 builder
                     .AddRetry(new RetryStrategyOptions
                     {
+                        ShouldHandle = new PredicateBuilder()
+                        .Handle<HttpRequestException>()
+                        .Handle<TaskCanceledException>()
+                        .Handle<TimeoutRejectedException>(),
                         MaxRetryAttempts = options.Retry.MaxRetryAttempts,
                         Delay = options.Retry.InitialDelay,
                         BackoffType = DelayBackoffType.Exponential,
@@ -57,6 +89,11 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
                         OnRetry = args =>
                         {
                             var logger = context.ServiceProvider.GetRequiredService<ILogger<PolicyRegistry>>();
+                            telemetry.RecordRetryAttempt(
+                            PolicyType.ExternalService,
+                            args.AttemptNumber,
+                            args.RetryDelay);
+
                             logger.LogWarning(
                                 "PostInquiry Retry {Attempt} after {Delay}ms",
                                 args.AttemptNumber,
@@ -69,10 +106,54 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
                         FailureRatio = 0.5,
                         SamplingDuration = options.CircuitBreaker.SamplingDuration,
                         MinimumThroughput = options.CircuitBreaker.FailureThreshold,
-                        BreakDuration = options.CircuitBreaker.BreakDuration
+                        BreakDuration = options.CircuitBreaker.BreakDuration,
+                        ShouldHandle = new PredicateBuilder()
+                        .Handle<HttpRequestException>()
+                        .Handle<TaskCanceledException>()
+                        .Handle<TimeoutRejectedException>(),
+                        OnOpened = args =>
+                        {
+                            telemetry.RecordCircuitBreakerStateChange(
+                                PolicyType.ExternalService,
+                                CircuitState.Open);
+
+                            return ValueTask.CompletedTask;
+                        },
+
+                        OnClosed = args =>
+                        {
+                            telemetry.RecordCircuitBreakerStateChange(
+                                PolicyType.ExternalService,
+                                CircuitState.Closed);
+
+                            return ValueTask.CompletedTask;
+                        },
+                        OnHalfOpened = args =>
+                        {
+                            telemetry.RecordCircuitBreakerStateChange(
+                                PolicyType.ExternalService,
+                                CircuitState.HalfOpen);
+
+                            return ValueTask.CompletedTask;
+                        }
+
                     })
-                    .AddTimeout(options.Timeout.RequestTimeout);
+                    .AddTimeout(new TimeoutStrategyOptions
+                    {
+                        Timeout = TimeSpan.FromSeconds(5),
+                        OnTimeout = args =>
+                        {
+                            telemetry.RecordTimeout(
+                                PolicyType.ExternalService,
+                                args.Timeout);
+
+                            return ValueTask.CompletedTask;
+                        }
+                    });
             });
+
+    
+
 
             return services;
 

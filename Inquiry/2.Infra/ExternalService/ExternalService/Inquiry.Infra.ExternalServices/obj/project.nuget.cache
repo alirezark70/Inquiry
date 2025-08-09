@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "fZecW0GEJ4I=",
+  "dgSpecHash": "dLcBizR4Qvw=",
   "success": true,
   "projectFilePath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\email\\.nuget\\packages\\app.metrics\\4.3.0\\app.metrics.4.3.0.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\app.metrics.abstractions\\4.3.0\\app.metrics.abstractions.4.3.0.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\app.metrics.concurrency\\4.3.0\\app.metrics.concurrency.4.3.0.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\app.metrics.core\\4.3.0\\app.metrics.core.4.3.0.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\app.metrics.extensions.hosting\\4.3.0\\app.metrics.extensions.hosting.4.3.0.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\app.metrics.formatters.ascii\\4.3.0\\app.metrics.formatters.ascii.4.3.0.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\app.metrics.formatters.json\\4.3.0\\app.metrics.formatters.json.4.3.0.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
@@ -67,6 +73,7 @@
     "C:\\Users\\email\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\email\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512",
     "C:\\Users\\email\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],

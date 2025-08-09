@@ -66,6 +66,7 @@ namespace Inquiry.EndPoints.RestApi.Extensions
             // add external service and resilince and telemetry and retry services
             builder.Services.RegisterExternalService(builder.Configuration);
 
+            builder.Services.AddMetericsToDI();
 
             return builder.Build();
         }
@@ -91,6 +92,8 @@ namespace Inquiry.EndPoints.RestApi.Extensions
             app.UseAuthorization();
 
             app.MapControllers();
+
+            app.UseMetericsMiddleware();
             return app;
         }
     }

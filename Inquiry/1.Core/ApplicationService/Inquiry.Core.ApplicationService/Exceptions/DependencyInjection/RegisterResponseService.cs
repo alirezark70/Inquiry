@@ -43,7 +43,7 @@ namespace Inquiry.Core.Exceptions.DependencyInjection
                 cfg.RegisterServicesFromAssembly(Assembly.GetExecutingAssembly());
 
                 // ثبت رفتارها به ترتیب اجرا
-                cfg.AddBehavior(typeof(IRequestPreProcessor<>), typeof(LoggingBehaviour<>));
+                cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(LoggingBehaviour<,>));
                 cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
                 cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(PerformanceBehaviour<,>));
             });

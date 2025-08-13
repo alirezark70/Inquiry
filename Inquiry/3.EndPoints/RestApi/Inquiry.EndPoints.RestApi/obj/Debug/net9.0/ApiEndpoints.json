@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.PostController",
+    "Method": "GetAll",
+    "RelativePath": "api/Post/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.PostController",
     "Method": "Get",
     "RelativePath": "api/Post/GetPost/{id}",
     "HttpMethod": "GET",
@@ -13,33 +23,6 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Inquiry.Core.ApplicationService.Dtos.Posts.PostDto",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "api/WeatherForecast",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Inquiry.EndPoints.RestApi.WeatherForecastTest, Inquiry.EndPoints.RestApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "application/json"
-        ],
-        "StatusCode": 200
-      }
-    ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": []
   }
 ]

@@ -11,6 +11,24 @@
   },
   {
     "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.PostController",
+    "Method": "GetAllTest",
+    "RelativePath": "api/Post/GetAllTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Inquiry.Core.ApplicationService.Dtos.Posts.PostDto, Inquiry.Core.ApplicationService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Inquiry.EndPoints.RestApi.Controllers.PostController",
     "Method": "Get",
     "RelativePath": "api/Post/GetPost/{id}",
     "HttpMethod": "GET",

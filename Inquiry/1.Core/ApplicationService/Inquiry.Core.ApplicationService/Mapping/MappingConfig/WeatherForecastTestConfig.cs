@@ -15,6 +15,7 @@ namespace Inquiry.Core.ApplicationService.Mapping.MappingConfig
         {
             config.NewConfig<WeatherForecastTest, WeatherForecastDto>()
             .IgnoreNullValues(true);
+            //Test
         }
     }
 }

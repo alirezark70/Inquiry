@@ -36,7 +36,17 @@ namespace Inquiry.EndPoints.RestApi.Controllers
         {
             var posts=await _postInquiryService.GetAllAsync();
 
+            var dto =_mappingService.Map<PostDto>(posts);
+
             return PagedResponse<PostDto>(posts,1,1,posts.Count());    
+        }
+
+        [HttpGet("GetAllTest")]
+        public  IEnumerable<PostDto> GetAllTest()
+        {
+            var posts =  _postInquiryService.GetAllAsync();
+
+            return posts.Result;
         }
     }
 }

@@ -19,16 +19,32 @@ namespace Inquiry.Infra.ExternalServices.Posts
         private readonly IMappingService _mapper;
         private readonly ILogger<PostInquiryService> _logger;
 
-
         public PostInquiryService(HttpClient httpClient, IMappingService mapper, ILogger<PostInquiryService> logger)
         {
             _httpClient = httpClient;
             _mapper = mapper;
             _logger = logger;
+            Id=Guid.NewGuid();
         }
 
+        public Guid Id { get; init; }
+
+        public async Task<IEnumerable<PostDto>> GetAllAsync(CancellationToken cancellationToken = default)
+        {
+            var response = await _httpClient.GetAsync(
+               $"posts",
+               cancellationToken);
+
+            if (response.StatusCode == HttpStatusCode.NotFound)
+                return Enumerable.Empty<PostDto>();
 
 
+            // await Task.Delay(5000);
+            response.EnsureSuccessStatusCode();
+
+            var person = await response.Content.ReadFromJsonAsync<IEnumerable<PostDto>>(cancellationToken);
+            return person?? Enumerable.Empty<PostDto>();
+        }
 
         public async Task<PostDto?> GetPostByIdAsync(int id, CancellationToken cancellationToken = default)
         {

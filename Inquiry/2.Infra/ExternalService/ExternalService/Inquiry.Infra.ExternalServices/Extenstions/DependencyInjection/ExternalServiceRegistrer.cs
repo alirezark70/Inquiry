@@ -1,5 +1,6 @@
 ﻿using Inquiry.Core.ApplicationService.Contracts;
 using Inquiry.Core.ApplicationService.Contracts.ExternalServices;
+using Inquiry.Core.ApplicationService.Contracts.Infrastructure;
 using Inquiry.Core.ApplicationService.Mapping.Contracts;
 using Inquiry.Core.Domain.Enums.Base;
 using Inquiry.Infra.ExternalServices;
@@ -58,6 +59,9 @@ namespace Inquiry.Infra.Extenstions.DependencyInjection
 
             services.AddSingleton<IResilienceTelemetry, ResilienceTelemetry>();
 
+            services.AddHttpContextAccessor();
+
+            services.AddScoped<ICurrentUserService, ICurrentUserService>();
 
             // Register Decorated Service
              //services.Decorate<IPostInquiryService, ResilientPostInquiryService>();

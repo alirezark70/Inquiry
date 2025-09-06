@@ -28,12 +28,5 @@ namespace Inquiry.Core.Domain.Models.Response.Entities
             Errors.Add(new ErrorDetail { Field = field, Message = message });
         }
     }
-
-    public class ErrorDetail
-    {
-        public string Field { get; set; } = string.Empty;
-        public string Message { get; set; } = string.Empty;
-        public string? Code { get; set; }
-    }
 }
 

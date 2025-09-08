@@ -30,8 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -42,8 +50,7 @@
               "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\ValidationException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T19:06:11.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T19:06:11.824Z"
             },
             {
               "$type": "Document",
@@ -53,7 +60,7 @@
               "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
               "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAD4vx0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-06T19:04:35.09Z",
               "EditorCaption": ""
@@ -68,8 +75,7 @@
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-06T18:56:22.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T18:56:22.757Z"
             },
             {
               "$type": "Document",
@@ -81,8 +87,7 @@
               "RelativeToolTip": "1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\BaseResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T18:48:20.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T18:48:20.719Z"
             },
             {
               "$type": "Document",
@@ -94,16 +99,7 @@
               "RelativeToolTip": "1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\ErrorResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T18:46:33.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-09-06T18:46:33.574Z"
             }
           ]
         }

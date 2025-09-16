@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\filters\\globalexceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\inquiry.infra.externalservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|solutionrelative:2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\inquiry.infra.externalservices.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\3.endpoints\\restapi\\inquiry.endpoints.restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{270FB51C-1A35-4766-AAB7-ECC815DDDC1E}|3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Inquiry.EndPoints.RestApi.csproj|solutionrelative:3.endpoints\\restapi\\inquiry.endpoints.restapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DD5E1F6-9917-4860-AE4C-8A3BC420F1B8}|1.Core\\Domain\\Inquiry.Core.Domain\\Inquiry.Core.Domain.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\domain\\inquiry.core.domain\\models\\response\\entities\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD5E1F6-9917-4860-AE4C-8A3BC420F1B8}|1.Core\\Domain\\Inquiry.Core.Domain\\Inquiry.Core.Domain.csproj|solutionrelative:1.core\\domain\\inquiry.core.domain\\models\\response\\entities\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DD5E1F6-9917-4860-AE4C-8A3BC420F1B8}|1.Core\\Domain\\Inquiry.Core.Domain\\Inquiry.Core.Domain.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\domain\\inquiry.core.domain\\models\\response\\entities\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DD5E1F6-9917-4860-AE4C-8A3BC420F1B8}|1.Core\\Domain\\Inquiry.Core.Domain\\Inquiry.Core.Domain.csproj|solutionrelative:1.core\\domain\\inquiry.core.domain\\models\\response\\entities\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0DD5E1F6-9917-4860-AE4C-8A3BC420F1B8}|1.Core\\Domain\\Inquiry.Core.Domain\\Inquiry.Core.Domain.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\domain\\inquiry.core.domain\\enums\\base\\policytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DD5E1F6-9917-4860-AE4C-8A3BC420F1B8}|1.Core\\Domain\\Inquiry.Core.Domain\\Inquiry.Core.Domain.csproj|solutionrelative:1.core\\domain\\inquiry.core.domain\\enums\\base\\policytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,64 +30,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ValidationException.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\ValidationException.cs",
-              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\ValidationException.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\ValidationException.cs",
-              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Exceptions\\ValidationException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T19:06:11.824Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GlobalExceptionFilter.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
-              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Filters\\GlobalExceptionFilter.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T19:04:35.09Z",
+              "Title": "Inquiry.Infra.ExternalServices",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj",
+              "RelativeDocumentMoniker": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj",
+              "RelativeToolTip": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-10T22:43:30.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\appsettings.json",
-              "RelativeDocumentMoniker": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\appsettings.json",
-              "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-09-06T18:56:22.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\BaseResponse.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\BaseResponse.cs",
-              "RelativeToolTip": "1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\BaseResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "PolicyType.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\Domain\\Inquiry.Core.Domain\\Enums\\Base\\PolicyType.cs",
+              "RelativeDocumentMoniker": "1.Core\\Domain\\Inquiry.Core.Domain\\Enums\\Base\\PolicyType.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\Domain\\Inquiry.Core.Domain\\Enums\\Base\\PolicyType.cs",
+              "RelativeToolTip": "1.Core\\Domain\\Inquiry.Core.Domain\\Enums\\Base\\PolicyType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T18:48:20.719Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ErrorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\ErrorResponse.cs",
-              "RelativeDocumentMoniker": "1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\ErrorResponse.cs",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\ErrorResponse.cs",
-              "RelativeToolTip": "1.Core\\Domain\\Inquiry.Core.Domain\\Models\\Response\\Entities\\ErrorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-06T18:46:33.574Z"
+              "WhenOpened": "2025-09-10T22:41:58.025Z",
+              "EditorCaption": ""
             }
           ]
         }

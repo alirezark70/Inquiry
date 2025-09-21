@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\inquiry.core.applicationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\inquiry.core.applicationservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\posts\\postinquiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|solutionrelative:2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\posts\\postinquiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\dtos\\posts\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\dtos\\posts\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\1.core\\applicationservice\\inquiry.core.applicationservice\\services\\mapping\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03CACB7F-1160-4C17-A369-A7A938C92B26}|1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj|solutionrelative:1.core\\applicationservice\\inquiry.core.applicationservice\\services\\mapping\\mappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|c:\\users\\email\\source\\repos\\inquiry\\inquiry\\2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\posts\\resilientpostinquiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{645F3D36-3B88-49A3-AD20-AD83BDA1CD91}|2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Inquiry.Infra.ExternalServices.csproj|solutionrelative:2.infra\\externalservice\\externalservice\\inquiry.infra.externalservices\\posts\\resilientpostinquiryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +38,51 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingService.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Services\\Mapping\\MappingService.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Services\\Mapping\\MappingService.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Services\\Mapping\\MappingService.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Services\\Mapping\\MappingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:20:11.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Dtos\\Posts\\PostDto.cs",
+              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Dtos\\Posts\\PostDto.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Dtos\\Posts\\PostDto.cs",
+              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Dtos\\Posts\\PostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:18:23.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResilientPostInquiryService.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\ResilientPostInquiryService.cs",
+              "RelativeDocumentMoniker": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\ResilientPostInquiryService.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\ResilientPostInquiryService.cs",
+              "RelativeToolTip": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\ResilientPostInquiryService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:26:04.887Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Inquiry.Core.ApplicationService",
-              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj",
-              "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj",
-              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj",
-              "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Inquiry.Core.ApplicationService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-08T21:46:08.308Z",
+              "Title": "PostInquiryService.cs",
+              "DocumentMoniker": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\PostInquiryService.cs",
+              "RelativeDocumentMoniker": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\PostInquiryService.cs",
+              "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\PostInquiryService.cs",
+              "RelativeToolTip": "2.Infra\\ExternalService\\ExternalService\\Inquiry.Infra.ExternalServices\\Posts\\PostInquiryService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:26:01.639Z",
               "EditorCaption": ""
             }
           ]

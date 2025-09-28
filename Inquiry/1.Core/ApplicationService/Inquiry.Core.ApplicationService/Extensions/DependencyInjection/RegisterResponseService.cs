@@ -17,7 +17,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Inquiry.Core.Exceptions.DependencyInjection
+namespace Inquiry.Core.Extensions.DependencyInjection
 {
     public static class ResponseServiceRegistrer
     {

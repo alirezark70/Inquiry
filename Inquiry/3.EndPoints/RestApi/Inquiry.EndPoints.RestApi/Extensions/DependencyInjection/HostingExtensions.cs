@@ -1,9 +1,9 @@
 ﻿using Inquiry.Core.Domain.Models.Response.Entities;
 using Inquiry.EndPoints.Extensions.DependencyInjection;
-using Inquiry.Core.Exceptions.DependencyInjection;
 using Inquiry.Infra.Extenstions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
+using Inquiry.Core.Extensions.DependencyInjection;
 namespace Inquiry.EndPoints.Extensions.DependencyInjection
 {
     public static class HostingExtensions

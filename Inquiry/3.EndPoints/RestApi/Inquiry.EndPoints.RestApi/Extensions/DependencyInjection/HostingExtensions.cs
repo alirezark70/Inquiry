@@ -4,7 +4,7 @@ using Inquiry.Core.Exceptions.DependencyInjection;
 using Inquiry.Infra.Extenstions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Filters;
-namespace Inquiry.EndPoints.RestApi.Extensions
+namespace Inquiry.EndPoints.Extensions.DependencyInjection
 {
     public static class HostingExtensions
     {

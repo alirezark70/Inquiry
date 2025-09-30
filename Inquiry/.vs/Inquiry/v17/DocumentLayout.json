@@ -30,8 +30,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -40,7 +48,7 @@
               "RelativeDocumentMoniker": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\AuthorizationBehaviour.cs",
               "ToolTip": "C:\\Users\\email\\source\\repos\\Inquiry\\Inquiry\\1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\AuthorizationBehaviour.cs",
               "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Behaviors\\AuthorizationBehaviour.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-28T19:28:28.706Z",
               "EditorCaption": ""
@@ -55,8 +63,7 @@
               "RelativeToolTip": "1.Core\\ApplicationService\\Inquiry.Core.ApplicationService\\Extensions\\DependencyInjection\\RegisterResponseService.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAC4AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:17:04.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T19:17:04.49Z"
             },
             {
               "$type": "Document",
@@ -68,8 +75,7 @@
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\DependencyInjection\\ServiceExtensions.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:09:13.467Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T19:09:13.467Z"
             },
             {
               "$type": "Document",
@@ -81,16 +87,7 @@
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Extensions\\DependencyInjection\\HostingExtensions.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAAAFAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:08:48.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-09-28T19:08:48.741Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "3.EndPoints\\RestApi\\Inquiry.EndPoints.RestApi\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T19:08:34.894Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T19:08:34.894Z"
             }
           ]
         }
